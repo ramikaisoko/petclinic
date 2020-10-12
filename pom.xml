@@ -459,6 +459,15 @@
                 </plugins>
             </build>
         </profile>
+		<profile>
+			<build>
+					<testResources>
+						<testResource>
+							<directory>src/main/webapp</directory>
+						</testResource>
+					</testResources>
+			</build>
+		</profile>
    </profiles>
 
     <url>demopetclinic</url>
